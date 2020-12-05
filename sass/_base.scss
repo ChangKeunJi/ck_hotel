@@ -2,6 +2,8 @@
     --color-primary: rgb(65, 65, 149);
     --color-secondary: rgb(244, 234, 225);
     --color-grey-light: rgb(236, 236, 236);
+    --font-eng: 'Anonymous Pro', 'Open sans';
+    --shadow-dark: 0 2rem 5rem rgba(0, 0, 0, .05);
 }
 
 *,
@@ -18,7 +20,12 @@ html {
 }
 
 body {
-    font-family: 'Nanum Gothic', 'Anonymous Pro', 'Open sans';
+    font-family: 'Nanum Gothic';
     font-weight: 400;
     line-height: 1.6;
+}
+
+.side-m {
+    margin: 0 auto;
+    width: 70vw;
 }
