@@ -6,6 +6,12 @@
     --shadow-dark: 0 2rem 5rem rgba(0, 0, 0, .05);
 }
 
+@mixin centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 *,
 *::before,
 *::after {
@@ -20,12 +26,19 @@ html {
 }
 
 body {
-    font-family: 'Nanum Gothic';
+    font-family: var(--font-eng);
     font-weight: 400;
+    font-size: 1.6rem;
     line-height: 1.6;
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
 }
 
 .side-m {
     margin: 0 auto;
     width: 70vw;
+}
+
+.top-m {
+    margin-top: 5rem;
 }

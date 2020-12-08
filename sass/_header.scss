@@ -1,0 +1,15 @@
+.header {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(7, 5vw);
+    &__img {
+        background-image: url(../img/room-2.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: block;
+        // object-fit: cover;
+        grid-column: 1 / 6;
+        grid-row: 2 / -1;
+    }
+}
