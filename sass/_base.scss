@@ -1,44 +1,44 @@
 :root {
-    --color-primary: rgb(65, 65, 149);
-    --color-secondary: rgb(244, 234, 225);
-    --color-grey-light: rgb(236, 236, 236);
-    --font-eng: 'Anonymous Pro', 'Open sans';
-    --shadow-dark: 0 2rem 5rem rgba(0, 0, 0, .05);
+  --color-primary: rgb(65, 65, 149);
+  --color-secondary: rgb(244, 234, 225);
+  --color-grey-light: rgb(236, 236, 236);
+  --font-eng: "Anonymous Pro", "Open sans";
+  --shadow-dark: 0 2rem 5rem rgba(0, 0, 0, 0.05);
 }
 
 @mixin centering {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 *,
 *::before,
 *::after {
-    padding: 0;
-    margin: 0;
-    box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
 }
 
 html {
-    box-sizing: border-box;
-    font-size: 62.5%; // 1rem = 10px in Defualt browser setting.
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px in Defualt browser setting.
 }
 
 body {
-    font-family: var(--font-eng);
-    font-weight: 400;
-    font-size: 1.6rem;
-    line-height: 1.6;
-    color: var(--color-primary);
-    background-color: var(--color-secondary);
+  font-family: var(--font-eng);
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
 }
 
 .side-m {
-    margin: 0 auto;
-    width: 70vw;
+  margin: 0 auto;
+  width: 70vw;
 }
 
 .top-m {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }

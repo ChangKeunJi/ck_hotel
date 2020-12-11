@@ -1,15 +1,36 @@
 .header {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(7, 5vw);
-    &__img {
-        background-image: url(../img/room-2.jpg);
-        background-size: 100%;
-        background-repeat: no-repeat;
-        display: block;
-        // object-fit: cover;
-        grid-column: 1 / 6;
-        grid-row: 2 / -1;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  &__img {
+    background-image: url(../img/room-2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    grid-column: 2 / 8;
+    grid-row: 2 / 8;
+  }
+
+  &__text {
+    // margin-left: 1rem;
+    font-weight: 700;
+    align-self: center;
+    justify-self: start;
+
+    &--1 {
+      //   color: var(--color-grey-light);
+      margin-left: 2rem;
+      font-size: 4rem;
+      grid-column: 1 / -1;
+      grid-row: 2/ 3;
     }
+
+    &--2 {
+      font-size: 3rem;
+      grid-column: 3 / -1;
+      grid-row: 8 / 9;
+    }
+  }
 }
